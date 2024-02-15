@@ -34,7 +34,7 @@ main {
   outline: 1px solid black;
 
   width: min(384px, 100%);
-
+  
   margin: 0px auto;
 
   padding: 40px;
@@ -103,7 +103,10 @@ button:hover {
   position: fixed;
 
   width: 100%;
-  bottom: 15px;
+
+  bottom: 0;
+  
+  margin-bottom: 15px;
 
   font-size: 11px;
   text-align: center;
