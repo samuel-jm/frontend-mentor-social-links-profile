@@ -1,6 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+
+  display: flex;
+  
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+
+  outline: 1px solid black;
+
+  width:fit-content;
+  height: fit-content;
+
+  margin: 0px auto;
+
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 88px;
+  height: auto;
+}
+
 .attribution {
+  position: fixed;
+
+  width: 100%;
+  bottom: 15px;
+
   font-size: 11px;
   text-align: center;
 }
