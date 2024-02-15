@@ -20,6 +20,8 @@ body {
 }
 
 main {
+  box-sizing: border-box;
+
   font-family: "Inter";
 
   background-color: hsl(0, 0%, 12%);
@@ -29,8 +31,7 @@ main {
 
   outline: 1px solid black;
 
-  width: fit-content;
-  height: fit-content;
+  width: min(384px, 100%);
 
   margin: 0px auto;
 
@@ -68,6 +69,8 @@ main p {
   display: flex;
   flex-direction: column;
 
+  width: 100%;
+
   gap: 16px;
 }
 
@@ -77,6 +80,10 @@ button {
 
   font-size: 14px;
   font-weight: 600;
+
+  width: 100%;
+
+  padding: 12px 0;
 
   border: none;
 }
