@@ -6,6 +6,10 @@
 }
 
 body {
+  color: white;
+
+  background-color: hsl(0, 0%, 8%);
+
   height: 100vh;
 
   display: flex;
@@ -16,6 +20,8 @@ body {
 }
 
 main {
+  background-color: hsl(0, 0%, 12%);
+
   display: flex;
   flex-direction: column;
 
@@ -33,6 +39,21 @@ main {
 img {
   width: 88px;
   height: auto;
+}
+
+main h2 {
+  color: hsl(75, 94%, 57%);
+}
+
+button {
+  background-color: hsl(0, 0%, 20%);
+
+  border: none;
+}
+
+button:hover {
+  color: black;
+  background-color: hsl(75, 94%, 57%);
 }
 
 .attribution {
