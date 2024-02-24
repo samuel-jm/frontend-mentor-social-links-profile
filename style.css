@@ -1,4 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("assets/fonts/inter-v13-latin-regular.woff2") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("assets/fonts/inter-v13-latin-600.woff2") format("woff");
+}
 
 * {
   padding: 0;
@@ -24,7 +38,7 @@ main {
 
   border-radius: 12px;
 
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
 
   background-color: hsl(0, 0%, 12%);
 
